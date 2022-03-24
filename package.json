@@ -8,9 +8,12 @@
   "scripts": {
     "build": "tsc -b",
     "test": "jest",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "postinstall": "npm run build"
   },
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "repository": "https://github.com/nteract/ansi-to-react",
   "keywords": [
     "ansi",
